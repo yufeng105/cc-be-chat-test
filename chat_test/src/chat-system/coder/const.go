@@ -1,0 +1,15 @@
+package coder
+
+const DWORD_LEN = 4
+
+const HEADER_LEN = 8
+
+const SOCKET_VER = 0x89
+const PLAZA_VER = 131073
+
+const SOCKET_PACKET = 16376
+
+const SOCKET_BUFFER = 16384
+
+const INVALID_CHAIR = 0xFFFF
+const INVALID_TABLE = 0xFFFF

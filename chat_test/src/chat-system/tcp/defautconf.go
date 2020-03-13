@@ -1,0 +1,23 @@
+package tcp
+
+import (
+	"time"
+)
+
+const (
+	DEFAULT_PACK_HEAD_LEN = 8
+	DEFAULT_MAX_BODY_LEN  = 16384 - 8
+
+	DEFAULT_RECV_BUF_LEN    = 1024 * 4
+	DEFAULT_SEND_BUF_LEN    = 1024 * 4
+	DEFAULT_MAX_PACK_LEN    = 1024 * 1024
+	DEFAULT_KEEP_ALIVE_TIME = time.Second * 60
+	DEFAULT_RECV_BLOCK_TIME = time.Second * 20
+	DEFAULT_SEND_BLOCK_TIME = time.Second * 5
+	DEFAULT_SEND_Q_SIZE     = 256
+)
+const (
+	SOCKET_VER byte = 0x89
+
+	PLAZA_VER = 131073
+)
